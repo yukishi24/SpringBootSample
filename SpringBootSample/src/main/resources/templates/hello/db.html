@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thyleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>HelloRepositoryDB</title>
+</head>
+<body>
+<h1>HelloRepositoryDB</h1>
+<table>
+<tr>
+<th>ID:</th>
+<th th:text="${employee.employeeId}"></th>
+</tr>
+<tr>
+<th>名前:</th>
+<th th:text="${employee.employeeName}"></th>
+</tr>
+<tr>
+<th>年齢:</th>
+<th th:text="${employee.employeeAge}"></th>
+</tr>
+</table>
+</body>
+</html>
