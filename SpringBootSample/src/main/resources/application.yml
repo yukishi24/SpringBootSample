@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: sl4460
+    url: jdbc:postgresql://localhost:5432/SpringBootSample
+    username: yukishi
